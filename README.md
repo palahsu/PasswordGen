@@ -10,7 +10,6 @@ Create a secure password using Password-Gen tool. Help prevent a security threat
 - A mixture of letters and numbers
 - Inclusion of at least two ascii charactercharacter, e.g., ! @ # ? ]
 
-
 For any kind of help, support, payment, suggestion and request ask me on Gmail / Telegram:
 
 <a href="https://t.me/CyberClans"><img src="https://img.shields.io/badge/Telegram-Group%20Telegram%20Join-blue.svg?logo=telegram"></a>
