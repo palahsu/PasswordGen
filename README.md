@@ -12,6 +12,11 @@ Create a secure password using Password-Gen tool. Help prevent a security threat
 - A mixture of letters and numbers
 - Inclusion of at least two ascii charactercharacter, e.g., ! @ # ? ]
 
+### Supported Devices:
+- Linux
+- Windows
+
+
 
 For any kind of help, support, payment, suggestion and request ask me on Gmail / Telegram:
 
