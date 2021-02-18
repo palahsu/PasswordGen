@@ -27,7 +27,7 @@ def pwGenerator(size = 8):
 gui = Tk()
 gui.title("Password Generator")
 gui.config(bg = '#1A1A1A')
-gui.title('Resizable') 
+gui.title('Password Gen') 
 width = 600
 height = 342
 screen_width = gui.winfo_screenwidth()
