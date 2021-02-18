@@ -8,7 +8,7 @@ except ImportError:
 import time
 from pwgenfunc import RandPass
 
-#main
+#Main
 def pwGenerator(size = 8):
     data = RandPass(size)
     new_password = data[0]
