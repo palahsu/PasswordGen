@@ -51,8 +51,8 @@ Form = Frame(gui, width=width, background="#1A1A1A",)
 Form.pack(side=TOP)
 Bot = Frame(gui, width=width)
 Bot.pack(side=BOTTOM)
-#Label
 
+#Label
 label_password = Label(Form, font=('Segoe UI', 18), text="Password",foreground="white", background="#1A1A1A", bd=10)
 label_password.grid(row=0, pady=10)
 label_strength = Label(Form, font=('Segoe UI', 10, 'bold'), foreground="white", background="white", text="Weak", bd=10, height=1, width=10)
@@ -61,6 +61,7 @@ label_pw_size = Label(Form, font=('Segoe UI', 18), text="Size",foreground="white
 label_pw_size.grid(row=2, pady=10)
 label_instructions = Label(Bot, width=width, font=('Segoe UI', 12, 'bold'), text="Password Generated to your Clipboard!", foreground="white", background="#1A1A1A", bd=1, relief=SOLID)
 label_instructions.pack(fill=X)
+
 #Button
 password = Entry(Form, textvariable=PASSWORD, font=(18), width=24)
 password.grid(row=0, column=1, columnspan=2)
