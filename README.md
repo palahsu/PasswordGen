@@ -10,7 +10,7 @@ Create a secure password using Password-Gen tool. Help prevent a security threat
 - At least 9 characters—the more characters, the better
 - A mixture of both uppercase and lowercase letters
 - A mixture of letters and numbers
-- Inclusion of at least two ascii charactercharacter, e.g., ! @ # ? ]
+- Inclusion of at least two ascii charactercharacter, e.g., ! @ # $ % ^ * + = - ? ]
 
 ### Supported Devices:
 
