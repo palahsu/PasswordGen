@@ -69,6 +69,7 @@ password.grid(row=0, column=1, columnspan=2)
 pw_size = Scale(Form, from_=8, to=24, length=200,width=24,sliderlength=14, orient=HORIZONTAL, variable=PW_SIZE, foreground="white", background="#1A1A1A",  font=(16))
 pw_size.grid(row=2, column=1, columnspan=2)
 
+#CopytoClip
 def Copy_password():
     pyperclip.copy(new_password_str.get())
 
