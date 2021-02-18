@@ -36,7 +36,6 @@ x = (screen_width/2) - (width/2)
 y = (screen_height/2) - (height/2)
 gui.geometry("%dx%d+%d+%d" % (width, height, x, y))
 
-
 #Var
 PASSWORD = StringVar()
 PW_SIZE = IntVar()
@@ -53,8 +52,7 @@ Form.pack(side=TOP)
 Bot = Frame(gui, width=width)
 Bot.pack(side=BOTTOM)
 #Label
-#label_title = Label(Top, width=width, font=('Segoe UI', 12, 'bold'), background="#1A1A1A", text="Select: Size >> Click: Generate Now", bd=1, relief=SOLID)
-#label_title.pack(fill=X)
+
 label_password = Label(Form, font=('Segoe UI', 18), text="Password",foreground="white", background="#1A1A1A", bd=10)
 label_password.grid(row=0, pady=10)
 label_strength = Label(Form, font=('Segoe UI', 10, 'bold'), foreground="white", background="white", text="Weak", bd=10, height=1, width=10)
