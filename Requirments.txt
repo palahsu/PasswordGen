@@ -1,0 +1,4 @@
+Tkinter
+RandPass
+pwgenfunc
+Python >=3.5, <4.0
