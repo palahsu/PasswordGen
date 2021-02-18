@@ -17,7 +17,7 @@ Create a secure password using Password-Gen tool. Help prevent a security threat
 - Linux
 - Windows
 
-Gui Available
+Gui Available!
 
 For any kind of help, support, payment, suggestion and request ask me on Gmail / Telegram:
 
