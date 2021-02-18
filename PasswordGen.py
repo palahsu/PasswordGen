@@ -1,3 +1,6 @@
+#Before Copy this Source, Please, Take Owner Permission and Give Credits.
+#Thanks.
+
 try:
     from string import ascii_letters, digits, punctuation, join
 except ImportError:
