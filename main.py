@@ -1,10 +1,14 @@
+#Before Copy this Source, Please, Take Owner Permission and Give Credits.
+#Thanks.
+
 try:
     from tkinter import *
 except ImportError:
     from Tkinter import *
 import time
 from pwgenfunc import RandPass
-#=====================================METHODS===================================
+
+#main
 def pwGenerator(size = 8):
     data = RandPass(size)
     new_password = data[0]
@@ -19,7 +23,7 @@ def pwGenerator(size = 8):
     gui.update()
     gui.mainloop()
 
-#=====================================WINDOW===================================
+#MainWindow
 gui = Tk()
 gui.title("Password Generator")
 gui.config(bg = '#1A1A1A')
@@ -33,13 +37,13 @@ y = (screen_height/2) - (height/2)
 gui.geometry("%dx%d+%d+%d" % (width, height, x, y))
 
 
-#====================================VARIABLES==================================
+#Var
 PASSWORD = StringVar()
 PW_SIZE = IntVar()
 e1 = Entry(gui, text=PW_SIZE)
 PW_SIZE.set(8) # sets the default value for PW size/length
 
-#====================================FRAME======================================
+#WindowFrame
 Top = Frame(gui, width=width)
 
 Top.pack(side=TOP)
@@ -48,7 +52,7 @@ Form = Frame(gui, width=width, background="#1A1A1A",)
 Form.pack(side=TOP)
 Bot = Frame(gui, width=width)
 Bot.pack(side=BOTTOM)
-#====================================LABEL WIDGET===============================
+#Label
 #label_title = Label(Top, width=width, font=('Segoe UI', 12, 'bold'), background="#1A1A1A", text="Select: Size >> Click: Generate Now", bd=1, relief=SOLID)
 #label_title.pack(fill=X)
 label_password = Label(Form, font=('Segoe UI', 18), text="Password",foreground="white", background="#1A1A1A", bd=10)
@@ -59,7 +63,7 @@ label_pw_size = Label(Form, font=('Segoe UI', 18), text="Size",foreground="white
 label_pw_size.grid(row=2, pady=10)
 label_instructions = Label(Bot, width=width, font=('Segoe UI', 12, 'bold'), text="Password Generated to your Clipboard!", foreground="white", background="#1A1A1A", bd=1, relief=SOLID)
 label_instructions.pack(fill=X)
-#====================================ENTRY WIDGET===============================
+#Button
 password = Entry(Form, textvariable=PASSWORD, font=(18), width=24)
 password.grid(row=0, column=1, columnspan=2)
 pw_size = Scale(Form, from_=8, to=24, length=200,width=24,sliderlength=14, orient=HORIZONTAL, variable=PW_SIZE, foreground="white", background="#1A1A1A",  font=(16))
@@ -70,10 +74,8 @@ def Copy_password():
 
 Button(Top, text = 'COPY TO CLIPBOARD', foreground="white", background="#1A1A1A", command = Copy_password).pack(pady=5)
 
-#====================================BUTTON WIDGET==============================
 btn_generate = Button(Form, text="Generate Now", width=20, command=lambda: pwGenerator(PW_SIZE))
 btn_generate.grid(row=4, column=1, columnspan=2)
 
-#=======================================INITIATOR=================================
 gui.resizable(False, False)
 gui.mainloop()
