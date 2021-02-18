@@ -79,3 +79,4 @@ btn_generate.grid(row=4, column=1, columnspan=2)
 
 gui.resizable(False, False)
 gui.mainloop()
+
