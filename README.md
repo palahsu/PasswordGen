@@ -16,6 +16,8 @@ Create a powerful secure password using Password-Gen tool. Help prevent a securi
 - Linux
 - Windows
 
+### Release Version (EXE) Coming Soon! You Can Run it on Terminal or Compiler. 
+
 For any kind of help, support, payment, suggestion and request ask me on Gmail / Telegram:
 
 <a href="https://t.me/CyberClans"><img src="https://img.shields.io/badge/Telegram-Group%20Telegram%20Join-blue.svg?logo=telegram"></a>
