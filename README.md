@@ -13,7 +13,6 @@ Create a secure password using Password-Gen tool. Help prevent a security threat
 - Inclusion of at least two ascii charactercharacter, e.g., ! @ # $ % ^ * + = - ? ]
 
 ### Supported Devices:
-
 - Linux
 - Windows
 
