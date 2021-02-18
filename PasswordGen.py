@@ -77,3 +77,4 @@ def RandPass(size = 8):
 
     return new_password, msg, colorVal
 
+
