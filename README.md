@@ -18,7 +18,6 @@ Create a powerful secure password using Password-Gen tool. Help prevent a securi
 
 ### Note:
 Release Version (EXE) Coming Soon! You Can Run it on Terminal or Compiler.
-thanks
 
 For any kind of help, support, payment, suggestion and request ask me on Gmail / Telegram:
 
