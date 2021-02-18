@@ -1,6 +1,6 @@
 # PasswordGen
 
-Create a secure password using Password-Gen tool. Help prevent a security threat by getting a strong password. It's a random password generator to create long, truly random passwords that even the strongest computers can’t crack.
+Create a powerful secure password using Password-Gen tool. Help prevent a security threat by getting a strong password. It's a random password generator to create long, truly random passwords that even the strongest computers can’t crack.
 
 
 ![PasswordGenerator](https://user-images.githubusercontent.com/49250151/108319207-3d9ec280-71eb-11eb-8804-02c4bac8e510.PNG)
