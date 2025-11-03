@@ -6,7 +6,7 @@ try:
 except ImportError:
     from Tkinter import *
 import time
-from pwgenfunc import RandPass
+from PasswordGen import RandPass
 
 #Main
 def pwGenerator(size = 8):
@@ -79,3 +79,4 @@ btn_generate.grid(row=4, column=1, columnspan=2)
 
 gui.resizable(False, False)
 gui.mainloop()
+
